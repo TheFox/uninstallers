@@ -1,0 +1,2 @@
+# uninstallers
+macOS Uninstallers
