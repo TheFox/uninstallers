@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall farrago
+which -s brew && brew uninstall farrago
 
 rm -vrf ~/'Library/Application Support/Farrago'
 rm -vrf ~/'Library/Saved Application State/com.rogueamoeba.farrago.savedState'

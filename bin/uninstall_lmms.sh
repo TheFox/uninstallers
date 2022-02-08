@@ -23,6 +23,6 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall lmms
+which -s brew && brew uninstall lmms
 
 rm -vrf ~/'Library/Saved Application State/io.lmms.savedState'

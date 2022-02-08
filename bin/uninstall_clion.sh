@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall clion
+which -s brew && brew uninstall clion
 
 rm -vrf ~/'Library/Application Support/CLion'
 rm -vrf ~/'Library/Saved Application State/com.jetbrains.CLion.savedState'

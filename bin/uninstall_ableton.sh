@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall ableton-live-lite
+which -s brew && brew uninstall ableton-live-lite
 
 rm -vrf ~/'Library/Application Support/Ableton'
 rm -vrf ~/'Library/Saved Application State/com.ableton.live.savedState'

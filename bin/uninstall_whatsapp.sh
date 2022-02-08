@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall whatsapp
+which -s brew && brew uninstall whatsapp
 
 rm -vrf ~/'Library/Application Support/WhatsApp'
 rm -vrf ~/'Library/Saved Application State/WhatsApp.savedState'

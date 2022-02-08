@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall elasticsearch
+which -s brew && brew uninstall elasticsearch
 
 sudo rm -vrf /usr/local/etc/elasticsearch
 sudo rm -vrf /usr/local/var/log/elasticsearch

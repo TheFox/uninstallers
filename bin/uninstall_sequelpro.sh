@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall sequel-pro
+which -s brew && brew uninstall sequel-pro
 
 rm -vrf ~/'Library/Application Support/Sequel Pro'
 rm -vrf ~/'Library/Saved Application State/com.sequelpro.SequelPro.savedState'

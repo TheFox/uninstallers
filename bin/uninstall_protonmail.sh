@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall protonmail-bridge
+which -s brew && brew uninstall protonmail-bridge
 
 sudo rm -vrf '/Applications/ProtonMail Bridge.app'
 sudo rm -vrf '/Applications/ProtonMail Import-Export app.app'

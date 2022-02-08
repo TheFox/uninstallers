@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall spitfire-audio
+which -s brew && brew uninstall spitfire-audio
 
 sudo rm -vrf '/Library/PrivilegedHelperTools/com.spitfireaudio.LibraryManagerHelper'
 sudo rm -vrf '/Library/Logs/Spitfire Audio'

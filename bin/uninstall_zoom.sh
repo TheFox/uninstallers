@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall zoomus
+which -s brew && brew uninstall zoomus
 
 sudo rm -vrf /Applications/zoom.us.app
 

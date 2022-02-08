@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall splice
+which -s brew && brew uninstall splice
 
 rm -vrf ~/Library/Audio/Plug-Ins/Support/Splice
 rm -vrf ~/'Library/Application Support/com.splice.Splice'

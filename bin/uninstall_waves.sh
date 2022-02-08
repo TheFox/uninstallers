@@ -26,7 +26,7 @@ fi
 # Keep-alive: update existing `sudo` time stamp until script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-which brew && brew uninstall waves-central
+which -s brew && brew uninstall waves-central
 
 sudo rm -vrf /Applications/Waves
 sudo rm -vrf '/Library/Application Support/Native Instruments/Service Center'/Waves-*.xml

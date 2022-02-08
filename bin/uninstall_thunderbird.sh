@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall thunderbird
+which -s brew && brew uninstall thunderbird
 
 rm -vrf ~/'Library/Saved Application State/org.mozilla.thunderbird.savedState'
 rm -vrf ~/'Library/Application Support'/CrashReporter/thunderbird*.plist

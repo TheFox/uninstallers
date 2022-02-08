@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall discord
+which -s brew && brew uninstall discord
 
 rm -vrf ~/'Library/Application Support/discord'
 rm -vrf ~/'Library/Saved Application State/com.hnc.Discord.savedState'

@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall bitwig-studio
+which -s brew && brew uninstall bitwig-studio
 
 rm -vrf ~/'Library/Application Support/Bitwig'
 

@@ -26,7 +26,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall tower
+which -s brew && brew uninstall tower
 
 rm -vrf ~/'Library/Application Support/com.fournova.Tower3'
 rm -vrf ~/'Library/Application Support/com.fournova.Tower2'

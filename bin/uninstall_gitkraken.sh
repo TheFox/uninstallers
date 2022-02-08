@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall gitkraken
+which -s brew && brew uninstall gitkraken
 
 rm -vrf ~/'Library/Application Support/GitKraken'
 rm -vrf ~/'Library/Saved Application State/com.axosoft.gitkraken.savedState'

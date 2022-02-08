@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall reaper
+which -s brew && brew uninstall reaper
 
 rm -vrf ~/'Library/Application Support/REAPER'
 rm -vrf ~/'Library/Saved Application State/com.cockos.reaper.savedState'

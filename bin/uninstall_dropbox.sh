@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall dropbox
+which -s brew && brew uninstall dropbox
 
 rm -vrf ~/'Library/Saved Application State/com.getdropbox.DropboxMetaInstaller.savedState'
 rm -vrf ~/'Library/Application Scripts/com.dropbox.activityprovider'

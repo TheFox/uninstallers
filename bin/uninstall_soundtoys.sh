@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall soundtoys
+which -s brew && brew uninstall soundtoys
 
 sudo rm -vrf /Library/Audio/Plug-Ins/VST/Soundtoys
 sudo rm -vrf '/Library/Application Support/Avid/Audio/Plug-Ins/Soundtoys'

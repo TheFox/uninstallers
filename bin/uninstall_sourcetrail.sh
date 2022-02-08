@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall sourcetrail
+which -s brew && brew uninstall sourcetrail
 
 rm -vrf ~/'Library/Application Support/Sourcetrail'
 rm -vrf ~/'Library/Saved Application State/com.sourcetrail.savedState'

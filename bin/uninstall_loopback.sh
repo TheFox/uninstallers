@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall loopback
+which -s brew && brew uninstall loopback
 
 rm -vrf ~/'Library/Application Support/Loopback'
 rm -vrf ~/'Library/Saved Application State/com.rogueamoeba.Loopback.savedState'

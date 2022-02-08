@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall krita
+which -s brew && brew uninstall krita
 
 rm -vrf ~/'Library/Application Support/krita.log'
 rm -vrf ~/'Library/Application Support/krita'

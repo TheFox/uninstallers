@@ -26,7 +26,7 @@ fi
 # Keep-alive: update existing `sudo` time stamp until script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-which brew && brew uninstall fabfilter-pro-c fabfilter-pro-q fabfilter-pro-r
+which -s brew && brew uninstall fabfilter-pro-c fabfilter-pro-q fabfilter-pro-r
 
 sudo rm -vrf '/Library/Audio/Plug-Ins/VST/FabFilter Pro-L 2.vst'
 sudo rm -vrf '/Library/Audio/Plug-Ins/VST/FabFilter Pro-C 2 (Mono).vst'

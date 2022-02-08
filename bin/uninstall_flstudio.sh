@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall fl-studio
+which -s brew && brew uninstall fl-studio
 
 sudo rm -vrf '/Library/Audio/Plug-Ins/VST/FL Studio VSTi.vst'
 

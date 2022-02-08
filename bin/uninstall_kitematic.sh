@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which brew && brew uninstall kitematic
+which -s brew && brew uninstall kitematic
 
 rm -vrf ~/'Library/Saved Application State/com.electron.kitematic.savedState'
 rm -vrf ~/Library/Preferences/com.electron.kitematic*.plist
