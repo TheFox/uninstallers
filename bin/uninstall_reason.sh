@@ -23,6 +23,8 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
+sudo rm -vrf '/Applications/Authorizer.app'
+
 sudo rm -vrf '/Applications/Reason 12.app'
 sudo rm -vrf '/Applications/Reason+ Companion.app'
 sudo rm -vrf '/Library/Application Support/Avid/Audio/Plug-Ins/Reason Rack Plugin.aaxplugin'
