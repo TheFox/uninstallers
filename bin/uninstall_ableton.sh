@@ -25,6 +25,8 @@ fi
 
 which -s brew && brew uninstall ableton-live-lite
 
+sudo rm -vrf '/Applications/Ableton Live 11 Trial.app'
+
 rm -vrf ~/'Library/Application Support/Ableton'
 rm -vrf ~/'Library/Saved Application State/com.ableton.live.savedState'
 rm -vrf ~/'Library/Preferences/Ableton/Live 10.1.30'
