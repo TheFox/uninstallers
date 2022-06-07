@@ -26,6 +26,7 @@ fi
 which -s brew && brew uninstall league-of-legends
 
 sudo rm -vrf '/Applications/League of Legends.app'
+sudo rm -vrf '/Users/Shared/Riot Games'
 
 rm -vrf ~/'Library/Application Support/Riot Games/League of Legends'
 rm -vrf ~/'Library/Saved Application State/com.riotgames.LeagueofLegends.GameClient.savedState'
