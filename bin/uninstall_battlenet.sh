@@ -31,7 +31,6 @@ sudo rm -vrf /Library/Preferences/net.battle.plist
 rm -vrf ~/'Library/Application Support/Battle.net'
 rm -vrf ~/'Library/Application Support/Battle.net/Battle.net.config'
 rm -vrf ~/'Library/Saved Application State/net.battle.app.savedState'
-rm -vrf ~/'Library/Saved Application State/net.battle.app.savedState'
 rm -vrf ~/Library/Preferences/net.battle.plist
 rm -vrf ~/Library/Preferences/net.battle.app.plist
 rm -vrf ~/Library/Preferences/net.battle.app.helper.plist
