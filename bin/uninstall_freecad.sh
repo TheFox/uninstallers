@@ -25,7 +25,7 @@ fi
 
 set -x
 
-which -s brew && brew uninstall openscad
+which -s brew && brew uninstall freecad
 
 sudo rm -rf /Applications/FreeCAD.app
 
