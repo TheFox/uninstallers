@@ -25,6 +25,8 @@ fi
 
 which -s brew && brew uninstall bitwig-studio
 
+sudo rm -rf /Applications/'Bitwig Studio.app'
+
 rm -vrf ~/'Library/Application Support/Bitwig'
 
 rm -vrf ~/Library/Preferences/com.bitwig.studio.plist
