@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_sequelpro.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_sequelpro.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.
