@@ -29,9 +29,9 @@ which -s brew && brew uninstall docker
 
 sudo rm -rf /Applications/Docker.app
 
-rm -r ~/Library/'Application Support'/'Docker Desktop'
-rm -r ~/Library/'Application Scripts'/group.com.docker
-rm -r ~/Library/'Group Containers'/group.com.docker
-rm -r ~/Library/Preferences/com.electron.dockerdesktop.plist
-rm -r ~/Library/Containers/com.docker.docker
-rm -r ~/Library/Caches/'Docker Desktop'
+rm -rf ~/Library/'Application Support'/'Docker Desktop'
+rm -rf ~/Library/'Application Scripts'/group.com.docker
+rm -rf ~/Library/'Group Containers'/group.com.docker
+rm -rf ~/Library/Preferences/com.electron.dockerdesktop.plist
+rm -rf ~/Library/Containers/com.docker.docker
+rm -rf ~/Library/Caches/'Docker Desktop'
