@@ -27,6 +27,7 @@ find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v /Google/Chrome/Default/Local \
     | grep -v /Library/Caches/Homebrew/ \
     | grep -v /plugins/ \
+    | grep -v /Library/CloudStorage/Dropbox/ \
     | grep -v '.hpp$' \
     | grep -v '.js$' \
     | grep -v '.py$' \
