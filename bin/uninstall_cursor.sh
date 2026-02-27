@@ -23,7 +23,7 @@ if [[ "$1" == -h ]]; then
     exit 1
 fi
 
-which -s brew && brew uninstall mullvad-browser
+which -s brew && brew uninstall cursor
 
 sudo rm -vrf /Applications/Cursor.app
 
