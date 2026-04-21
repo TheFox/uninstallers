@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_sitala.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_sitala.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

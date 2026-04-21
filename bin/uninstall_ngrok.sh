@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_codexbar.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_codexbar.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

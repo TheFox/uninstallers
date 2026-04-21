@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_xlnaudio.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_xlnaudio.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_splice.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_splice.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_sourcetree.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_sourcetree.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_league_of_legends.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_league_of_legends.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

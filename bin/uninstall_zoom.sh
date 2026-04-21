@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_zoom.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_zoom.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

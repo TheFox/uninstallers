@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_kickstart.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_kickstart.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

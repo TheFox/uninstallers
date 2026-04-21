@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_waves.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_waves.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

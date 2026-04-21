@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_mullvad.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_mullvad.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

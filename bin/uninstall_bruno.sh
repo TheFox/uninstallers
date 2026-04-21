@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_bruno.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_bruno.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

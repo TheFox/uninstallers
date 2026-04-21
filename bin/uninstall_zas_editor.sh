@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_zas_editor.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_zas_editor.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_cursor.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_cursor.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

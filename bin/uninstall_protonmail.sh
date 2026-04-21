@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_protonmail.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_protonmail.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

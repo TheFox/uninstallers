@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_cinny.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_cinny.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

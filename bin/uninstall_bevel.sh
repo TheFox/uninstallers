@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_bevel.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_bevel.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

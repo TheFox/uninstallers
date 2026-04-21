@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_spotify.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_spotify.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

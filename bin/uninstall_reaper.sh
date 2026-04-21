@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_reaper.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_reaper.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

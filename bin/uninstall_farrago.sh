@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_farrago.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_farrago.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

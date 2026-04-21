@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_sga.sh - Shattered Glass Audio Uninstaller
+### uninstall.sh - Shattered Glass Audio Uninstaller
 ###
 ### Usage:
-###   uninstall_sga.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

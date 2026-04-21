@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_valhalla_dsp.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_valhalla_dsp.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

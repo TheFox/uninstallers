@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_serum.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_serum.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_spitfire_audio.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_spitfire_audio.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

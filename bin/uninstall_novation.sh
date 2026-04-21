@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_novation.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_novation.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

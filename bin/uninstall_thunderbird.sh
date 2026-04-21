@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_thunderbird.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_thunderbird.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

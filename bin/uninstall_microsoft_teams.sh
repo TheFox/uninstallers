@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_microsoft_teams.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_microsoft_teams.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

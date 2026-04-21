@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_elasticsearch.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_elasticsearch.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

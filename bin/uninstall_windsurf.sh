@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_windsurf.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_windsurf.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

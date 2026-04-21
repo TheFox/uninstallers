@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_analog_obsession.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_analog_obsession.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_codex.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_codex.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

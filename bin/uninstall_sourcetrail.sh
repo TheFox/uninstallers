@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_sourcetrail.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_sourcetrail.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

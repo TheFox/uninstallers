@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_dropbox.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_dropbox.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

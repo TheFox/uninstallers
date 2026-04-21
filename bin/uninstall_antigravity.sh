@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_antigravity.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_antigravity.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

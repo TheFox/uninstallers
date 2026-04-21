@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_cyberduck.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_cyberduck.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

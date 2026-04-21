@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_xpand.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_xpand.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_discord.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_discord.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

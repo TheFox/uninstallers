@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_factorio.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_factorio.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_ableton.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_ableton.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

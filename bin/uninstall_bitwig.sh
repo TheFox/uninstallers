@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_bitwig.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_bitwig.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_kitematic.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_kitematic.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

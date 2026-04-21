@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_structured.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_structured.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

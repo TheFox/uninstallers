@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_zap.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_zap.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

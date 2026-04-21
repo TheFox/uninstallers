@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_fabfilter.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_fabfilter.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

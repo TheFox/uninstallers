@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_pgadmin.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_pgadmin.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.

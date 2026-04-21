@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ###
-### uninstall_flstudio.sh - Uninstaller
+### uninstall.sh - Uninstaller
 ###
 ### Usage:
-###   uninstall_flstudio.sh [-h]
+###   uninstall.sh [-h]
 ###
 ### Options:
 ###   -h                  Show this message.
