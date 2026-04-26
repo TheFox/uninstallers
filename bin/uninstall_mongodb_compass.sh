@@ -24,3 +24,5 @@ if [[ "$1" == -h ]]; then
 fi
 
 which -s brew && brew uninstall mongodb-compass
+
+rm -f ~/Library/Preferences/com.mongodb.compass.plist
