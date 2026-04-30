@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-name=$1
+name="$1"
 find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v /Applications/Xcode.app \
     | grep -v /Library/Developer/Xcode \
@@ -36,4 +36,4 @@ find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v '.ttf$' \
     | grep -v '.jar$' \
     | grep -v '/aarch64$' \
-    | sort > ./finder_${name}.txt
+    | sort > "./finder_${name}.txt"
