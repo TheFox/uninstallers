@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 name="$1"
+
+brew search "${name}"
+
 find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v /Applications/Xcode.app \
     | grep -v /Library/Developer/Xcode \
