@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 name="$1"
+out_file="./tmp/finder_${name}.txt"
+
+mkdir -p tmp/
 
 brew search "${name}"
 
@@ -39,4 +42,4 @@ find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v '.ttf$' \
     | grep -v '.jar$' \
     | grep -v '/aarch64$' \
-    | sort > "./finder_${name}.txt"
+    | sort >> "${out_file}"

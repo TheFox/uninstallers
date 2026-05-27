@@ -25,19 +25,32 @@ fi
 
 which -s brew && brew uninstall microsoft-teams
 
-sudo rm -vrf '/Library/Application Support/Microsoft/TeamsUpdaterDaemon'
-sudo rm -vrf /Library/Preferences/com.microsoft.teams.plist
-sudo rm -vrf /Library/Logs/Microsoft/Teams
-sudo rm -vrf /Library/LaunchDaemons/com.microsoft.teams.TeamsUpdaterDaemon.plist
+sudo rm -rf /Library/'Application Support'/Microsoft/TeamsUpdaterDaemon
+sudo rm -rf /Library/Preferences/com.microsoft.teams.plist
+sudo rm -rf /Library/Logs/Microsoft/Teams
+sudo rm -rf /Library/LaunchDaemons/com.microsoft.teams.TeamsUpdaterDaemon.plist
+sudo rm -rf /Library/Audio/Plug-Ins/HAL/MSTeamsAudioDevice.driver
 
-rm -vrf ~/'Library/Application Support/Microsoft/Teams'
-rm -vrf ~/'Library/Application Support/com.microsoft.teams'
-rm -vrf ~/'Library/Application Support/Teams'
-rm -vrf ~/'Library/Saved Application State/com.microsoft.teams.savedState'
-rm -vrf ~/Library/Preferences/com.microsoft.teams.plist
-rm -vrf ~/Library/HTTPStorages/com.microsoft.teams.binarycookies
-rm -vrf ~/'Library/Logs/Microsoft Teams'
-rm -vrf ~/'Library/Logs/Microsoft Teams Helper (Renderer)'
-rm -vrf ~/'Library/Logs/Microsoft Teams Helper'
-rm -vrf ~/Library/Cookies/com.microsoft.teams.binarycookies
-rm -vrf ~/Library/Caches/com.microsoft.teams
+rm -rf ~/Library/'Application Support'/com.microsoft.teams
+rm -rf ~/Library/'Application Support'/Microsoft/Teams
+rm -rf ~/Library/'Application Support'/Teams
+rm -rf ~/Library/'Saved Application State'/com.microsoft.teams.savedState
+rm -rf ~/Library/Caches/com.microsoft.teams
+rm -rf ~/Library/Cookies/com.microsoft.teams.binarycookies
+rm -rf ~/Library/HTTPStorages/com.microsoft.teams
+rm -rf ~/Library/HTTPStorages/com.microsoft.teams.binarycookies
+rm -rf ~/Library/Logs/'Microsoft Teams Helper (Renderer)'
+rm -rf ~/Library/Logs/'Microsoft Teams Helper'
+rm -rf ~/Library/Logs/'Microsoft Teams'
+rm -rf ~/Library/Preferences/com.microsoft.teams.plist
+rm -rf ~/Library/Preferences/com.microsoft.teams2.helper.plist
+rm -rf ~/Library/WebKit/com.microsoft.teams
+
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2.agent
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2.launcher
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2.notificationcenter
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2.respawn
+rm -rf ~/Library/'Application Scripts'/com.microsoft.teams2.widgetextension
+rm -rf ~/Library/'Application Scripts'/UBF8T346G9.com.microsoft.teams
+
