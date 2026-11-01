@@ -7,7 +7,7 @@ mkdir -p tmp/
 
 brew search "${name}"
 
-find /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
+find ${HOME} /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v /Applications/Xcode.app \
     | grep -v /Library/Developer/Xcode \
     | grep -v /Library/Developer/CommandLineTools/ \
