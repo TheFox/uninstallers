@@ -1,30 +1,4 @@
 #!/usr/bin/env bash
-###
-### uninstall.sh - Uninstaller
-###
-### Usage:
-###   uninstall.sh [-h]
-###
-### Options:
-###   -h                  Show this message.
-
-NO_COLOR='\033[0m'
-RED='\033[0;31m'
-YELLOW='\033[0;33m'
-GREEN='\033[0;32m'
-BLUE='\033[0;34m'
-
-help() {
-    head -50 "$0" | grep '^###' | sed 's/^###//; s/^ //'
-}
-
-if [[ "$1" == -h ]]; then
-    help
-    exit 1
-fi
-
-# Keep-alive: update existing `sudo` time stamp until script has finished.
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 sudo rm -vrf '/Library/Application Support/GingerAudio'
 

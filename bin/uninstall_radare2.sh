@@ -5,13 +5,9 @@
 # https://github.com/radare/radare2
 # http://www.radare.org/r/
 
-
 # Ask for the administrator password upfront.
 echo 'ask for sudo'
 sudo -v
-
-# Keep-alive: update existing `sudo` time stamp until script has finished.
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 sudo rm -vf /usr/local/bin/r2
 sudo rm -vf /usr/local/bin/r2agent
@@ -88,7 +84,6 @@ sudo rm -vf /usr/local/share/man/man1/rarun2.1
 sudo rm -vf /usr/local/share/man/man1/rasm2.1
 sudo rm -vf /usr/local/share/man/man1/rax2.1
 sudo rm -vf /usr/local/share/man/man7/esil.7
-
 
 sudo rm -vfr /usr/local/include/libr
 sudo rm -vfr /usr/local/lib/radare2

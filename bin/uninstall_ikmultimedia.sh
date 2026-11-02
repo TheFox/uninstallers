@@ -1,27 +1,4 @@
 #!/usr/bin/env bash
-###
-### uninstall.sh - Uninstaller
-###
-### Usage:
-###   uninstall.sh [-h]
-###
-### Options:
-###   -h                  Show this message.
-
-NO_COLOR='\033[0m'
-RED='\033[0;31m'
-YELLOW='\033[0;33m'
-GREEN='\033[0;32m'
-BLUE='\033[0;34m'
-
-help() {
-    head -50 "$0" | grep '^###' | sed 's/^###//; s/^ //'
-}
-
-if [[ "$1" == -h ]]; then
-    help
-    exit 1
-fi
 
 # Custom Shop
 sudo rm -vrf '/Library/Preferences/com.ikmultimedia.Custom Shop.plist'
@@ -32,7 +9,6 @@ rm -vrf ~/'Library/Application Support/Custom Shop'
 rm -vrf ~/'Library/Logs/Custom Shop'
 rm -vrf ~/'Library/Saved Application State/com.ikmultimedia.Custom-Shop.savedState'
 rm -vrf ~/'Library/Preferences/com.ikmultimedia.Custom-Shop.plist'
-
 
 # Syntronik
 sudo rm -vrf '/Applications/Syntronik 2.app'
@@ -49,7 +25,6 @@ rm -vrf ~/'Library/Application Support/IK Multimedia/Syntronik 2'
 rm -vrf ~/'Library/Saved Application State/com.ikmultimedia.Syntronik2.savedState'
 rm -vrf ~/'Library/Preferences/com.ikmultimedia.Syntronik 2.plist'
 rm -vrf ~/'Library/HTTPStorages/com.ikmultimedia.Syntronik2'
-
 
 # AmpliTube
 sudo rm -vrf '/Applications/AmpliTube 5.app'
@@ -69,7 +44,6 @@ rm -vrf ~/'Library/Preferences/com.ikmultimedia.AmpliTube5.plist'
 rm -vrf ~/'Library/HTTPStorages/com.ikmultimedia.AmpliTube5'
 rm -vrf ~/'Library/Caches/AmpliTube 5'
 
-
 # SampleTank
 sudo rm -vrf '/Applications/SampleTank 4.app'
 sudo rm -vrf '/Library/Application Support/Avid/Audio/Plug-Ins/SampleTank 4.aaxplugin'
@@ -84,7 +58,6 @@ rm -vrf ~/'Library/Application Support/IK Multimedia/SampleTank 4'
 rm -vrf ~/'Library/Saved Application State/com.ikmultimedia.sampletank4.savedState'
 rm -vrf ~/'Library/Preferences/com.ikmultimedia.SampleTank 3.plist'
 rm -vrf ~/'Library/Preferences/com.ikmultimedia.SampleTank 4.plist'
-
 
 # T-RackS
 sudo rm -vrf '/Applications/T-RackS 5.app'
@@ -309,7 +282,6 @@ rm -vrf ~/'Library/Application Support/IK Multimedia/T-RackS 5'
 rm -vrf ~/'Library/Caches/com.juce.locks/juceAppLock_T-RackS 5'
 rm -vrf ~/'Library/Preferences/com.ikmultimedia.T-RackS 5.plist'
 rm -vrf ~/'Library/HTTPStorages/com.ikmultimedia.TR5'
-
 
 # IK
 sudo rm -vrf '/Applications/IK Product Manager.app'
