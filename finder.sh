@@ -7,6 +7,7 @@ mkdir -p tmp/
 
 brew search "${name}"
 
+echo find
 find ${HOME} /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v /Applications/Xcode.app \
     | grep -v /Library/Developer/Xcode \
@@ -43,3 +44,5 @@ find ${HOME} /Applications /Library ~/Library -iname "*${name}*" 2> /dev/null \
     | grep -v '.jar$' \
     | grep -v '/aarch64$' \
     | sort >> "${out_file}"
+
+echo find done
